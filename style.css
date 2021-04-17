@@ -1,0 +1,186 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    background-color: #000;
+}
+
+.wrapper {
+    max-width: 1440px;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.promo {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.promo-text {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.promo-paragraph {
+    text-align: center;
+    margin: 0 0 65px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.links-list {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.link-text {
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+.links-list li:first-child{
+    margin-right: 30px;
+}
+
+.link-wrap {
+    display: flex;
+    min-width: 270px;
+    min-height: 110px;
+    align-items: center;
+}
+
+.icon-google {
+    background: url('icons/google.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 0 13px 0 21px;
+}
+
+.icon-apple {
+    background: url('icons/apple.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 0 13px 0 21px;
+}
+
+.main {
+    background-color: #000;
+    padding: 100px 0;
+}
+
+.main-scroll-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-scroll-pic img {
+    margin: 0 90px 54px 90px;
+}
+
+.left-btn {
+    background: url('icons/left.png') no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+.right-btn {
+    background: url('icons/right.png') no-repeat;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.chess {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    margin: 0;
+    line-height: 120%;
+}
+
+.header-variants {
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    line-height: 100%;
+    margin: 0 0 50px 0;
+}
+
+.variants {
+    background-color: #fff;
+    padding: 105px 75px 200px;
+}
+
+.variants-list {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.variants-list-item {
+    background-color: #fff;
+    color: #000;
+    max-width: 384px;
+    margin: 0;
+}
+
+.variants-list li:nth-child(2) {
+    margin: 0 50px;
+    max-width: 420px;
+}
+
+.house-icon {
+    background: url('icons/lightbulb-icon.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.nature-icon {
+    background: url('icons/browse-icon.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.friend-question-icon {
+    background: url('icons/tel-icon.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.variants-list-item h3 {
+    text-align: center;
+    font-size: 35px;
+    line-height: 120%;
+    margin: 18px 0 10px 0;
+}
+
+.variants-list-item p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 120%;
+    margin: 0;
+}
